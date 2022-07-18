@@ -72,6 +72,9 @@ h1 {
 
 .about {        /* Container */
     display: flex;
+    justify-content: center;
+    padding: 3em;
+    background-color: #171f2a;
     
 }
 
@@ -88,6 +91,19 @@ h1 {
 .mid-section {     /* Container */
     display: flex;
     flex-direction: column;
+    
+}
+
+.wrap-projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.project {
+    max-width: 200px;
 }
 
 .mid-main {
@@ -95,6 +111,9 @@ h1 {
     color: #ccd6f6;
     font-family: roboto-bold;
     border: 2px solid salmon;
+    margin: auto;
+    padding: 1em;
+
 }
 
 .mid-sub {
@@ -102,6 +121,7 @@ h1 {
     font-family: roboto-thin;
     color:#8892b0;
     border: 2px solid black;
+    padding: 1em;
 
 }
 
@@ -117,6 +137,7 @@ h1 {
     background-color: #2c3a4f;
     display: flex;
     flex-direction: column;
+    padding: 3em;
 }
 
 .call {
@@ -124,6 +145,7 @@ h1 {
     font-family: roboto;
     color:#ccd6f6;
     border: 2px solid salmon;
+    margin: auto;
 }
 
 .sub {
@@ -131,6 +153,7 @@ h1 {
     font-family: roboto-thin;
     color: #8892b0;
     border: 2px solid purple;
+    margin: auto;
 }
 
 /* Footer */
